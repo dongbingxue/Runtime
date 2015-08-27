@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "ReactiveCocoa.h"
+//#import "ReactiveCocoa.h"
 
 typedef void (^EZVoidBlock)(void);
 @interface EasyKit : NSObject {}
@@ -42,7 +42,7 @@ typedef void (^EZVoidBlock)(void);
      }
  }];
  */
-+ (RACSignal*) rac_didNetworkChanges;
+//+ (RACSignal*) rac_didNetworkChanges;
 @end
 
 @interface $ : EasyKit {}

@@ -126,11 +126,11 @@
   }
 }
 
-+ (RACSignal*) rac_didNetworkChanges{
-    AFNetworkReachabilityManager * manager = [AFNetworkReachabilityManager sharedManager];
-    [manager startMonitoring];
-    return RACObserve(manager, networkReachabilityStatus);
-}
+//+ (RACSignal*) rac_didNetworkChanges{
+//    AFNetworkReachabilityManager * manager = [AFNetworkReachabilityManager sharedManager];
+//    [manager startMonitoring];
+//    return RACObserve(manager, networkReachabilityStatus);
+//}
 
 @end
 
