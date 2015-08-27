@@ -19,6 +19,7 @@
 		7FF5AD0F1B8C47F50029D1D5 /* UIAlertView+HDFAlertViewID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5AD0A1B8C47F50029D1D5 /* UIAlertView+HDFAlertViewID.m */; };
 		7FF5AD101B8C47F50029D1D5 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5AD0C1B8C47F50029D1D5 /* UIViewController+Swizzling.m */; };
 		7FF5AD4F1B8D96A70029D1D5 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5AD4E1B8D96A70029D1D5 /* NotificationViewController.m */; };
+		7FF5AD541B8F066B0029D1D5 /* EasyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5AD531B8F066B0029D1D5 /* EasyKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		7FF5AD0C1B8C47F50029D1D5 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 		7FF5AD4D1B8D96A70029D1D5 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		7FF5AD4E1B8D96A70029D1D5 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		7FF5AD521B8F066B0029D1D5 /* EasyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyKit.h; sourceTree = "<group>"; };
+		7FF5AD531B8F066B0029D1D5 /* EasyKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 		7FF5AD501B8D99600029D1D5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7FF5AD521B8F066B0029D1D5 /* EasyKit.h */,
+				7FF5AD531B8F066B0029D1D5 /* EasyKit.m */,
 				7FF5AD051B8C47F50029D1D5 /* NSArray+Swizzle.h */,
 				7FF5AD061B8C47F50029D1D5 /* NSArray+Swizzle.m */,
 				7FF5AD071B8C47F50029D1D5 /* NSObject+RNSwizzle.h */,
@@ -255,6 +260,7 @@
 				7FF5ACE81B8C47CD0029D1D5 /* ViewController.m in Sources */,
 				7FF5AD0E1B8C47F50029D1D5 /* NSObject+RNSwizzle.m in Sources */,
 				7FF5ACE51B8C47CD0029D1D5 /* AppDelegate.m in Sources */,
+				7FF5AD541B8F066B0029D1D5 /* EasyKit.m in Sources */,
 				7FF5ACE21B8C47CD0029D1D5 /* main.m in Sources */,
 				7FF5AD0D1B8C47F50029D1D5 /* NSArray+Swizzle.m in Sources */,
 				7FF5AD4F1B8D96A70029D1D5 /* NotificationViewController.m in Sources */,
