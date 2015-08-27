@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     static void *ClassNameTableViewContent = &ClassNameTableViewContent;
-    [self arraySwizzling];
+   // [self arraySwizzling];
 }
 
 - (void)didReceiveMemoryWarning {
